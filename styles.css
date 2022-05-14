@@ -8,6 +8,13 @@ body {
     padding-top: 20px;
     width: 60%;
 }
+footer {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 50px;
+}
 #nav-bar {
     padding: 0;
     overflow: hidden;
@@ -200,8 +207,19 @@ input[type="submit"]:hover {
     #header-img {
         display: none;
     }
-    #content {
+    #info, #about, #contact {
         padding: 3%;
+    }
+    #video {
+        height: 150px;
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+    #content {
         width: 100%;
+    }
+    #hero-text h1 {
+        font-size: 30px;
     }
 }
